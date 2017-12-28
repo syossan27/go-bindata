@@ -25,11 +25,8 @@ func main() {
 	}
 }
 
-// parseArgs create s a new, filled configuration instance
-// by reading and parsing command line options.
-//
-// This function exits the program with an error, if
-// any of the command line options are incorrect.
+// parseArgsは、コマンドラインオプションを読み込んで解析することによって、新しい充実した設定インスタンスを作成します。
+// この関数は、コマンドラインオプションのいずれかが間違っていると、プログラムをエラーで終了します。
 func parseArgs() *bindata.Config {
 	var version bool
 
